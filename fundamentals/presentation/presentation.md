@@ -15,6 +15,7 @@ theme: uncover
 
 All the content can be found [here](https://github.com/tsevdos/epignosis-react-training).
 
+- what is SPAs
 - what is react
 - core principles
 - JSX
@@ -28,6 +29,69 @@ Feel free to interrupt me for:
 
 - questions
 - relevant comments
+
+---
+
+# Multi-page application
+
+- client-server architecture
+- server does all the work
+- client (browser) just renders
+
+---
+
+# Multi-page application
+
+![height:500px](./assets/mpa.png)
+
+---
+
+# Multi-page application advantages
+
+- SEO
+- monolith
+- caching
+
+---
+
+# Multi-page application disadvantages
+
+- server load / resources
+- bandwidth
+- monolith (separation of concerns)
+- slower UX / UI
+
+---
+
+# Single-page application
+
+- client-server architecture
+- server and client do their own part
+- client is another app
+
+---
+
+# Single-page application
+
+![height:500px](./assets/spa.png)
+
+---
+
+# Single-page application advantages
+
+- you have 2 applications to deal
+- reduce server load / resources
+- less bandwidth
+- separation of concerns
+- faster UX / UI
+
+---
+
+# Single-page application disadvantages
+
+- you have 2 applications to deal
+- SEO
+- slow initial page (?)
 
 ---
 
