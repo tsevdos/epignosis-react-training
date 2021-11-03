@@ -95,6 +95,7 @@ const SelectRadioButtonCheckbox = () => {
       </div>
 
       <div>
+        <Heading as="h2">Results</Heading>
         <Heading as="h4">{language}</Heading>
         <Heading as="h4">{gender}</Heading>
 

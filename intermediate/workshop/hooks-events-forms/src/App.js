@@ -27,63 +27,68 @@ const App = () => {
             <MainNav />
           </div>
           <div className="content-container">
-            <Header />
-
-            <main>
-              <Switch>
-                {/* Hooks */}
-                <Route exact path="/hooks/use-state" component={HookUseState} />
-                <Route
-                  exact
-                  path="/hooks/use-effect"
-                  component={HookUseEffect}
-                />
-                <Route
-                  exact
-                  path="/hooks/use-effect-2"
-                  component={HookUseEffect2}
-                />
-                <Route
-                  exact
-                  path="/hooks/use-effect-3"
-                  component={HookUseEffect3}
-                />
-                <Route
-                  exact
-                  path="/hooks/use-effect-4"
-                  component={HookUseEffect4}
-                />
-                <Route
-                  exact
-                  path="/hooks/use-reducer"
-                  component={HookUseReducer}
-                />
-                {/* Forms */}
-                <Route
-                  exact
-                  path="/forms/simple-input"
-                  component={SimpleInput}
-                />
-                <Route
-                  exact
-                  path="/forms/input-and-textarea"
-                  component={InputTextarea}
-                />
-                <Route
-                  exact
-                  path="/forms/select-radio-button-checkbox"
-                  component={SelectRadioButtonCheckbox}
-                />
-                <Route
-                  exact
-                  path="/forms/form-submit-async"
-                  component={FormSubmit}
-                />
-                <Route exact path="/">
-                  <Heading as="h1">Demos</Heading>
-                </Route>
-              </Switch>
-            </main>
+            <div>
+              <Header />
+              <main>
+                <Switch>
+                  {/* Hooks */}
+                  <Route
+                    exact
+                    path="/hooks/use-state"
+                    component={HookUseState}
+                  />
+                  <Route
+                    exact
+                    path="/hooks/use-effect"
+                    component={HookUseEffect}
+                  />
+                  <Route
+                    exact
+                    path="/hooks/use-effect-2"
+                    component={HookUseEffect2}
+                  />
+                  <Route
+                    exact
+                    path="/hooks/use-effect-3"
+                    component={HookUseEffect3}
+                  />
+                  <Route
+                    exact
+                    path="/hooks/use-effect-4"
+                    component={HookUseEffect4}
+                  />
+                  <Route
+                    exact
+                    path="/hooks/use-reducer"
+                    component={HookUseReducer}
+                  />
+                  {/* Forms */}
+                  <Route
+                    exact
+                    path="/forms/simple-input"
+                    component={SimpleInput}
+                  />
+                  <Route
+                    exact
+                    path="/forms/input-and-textarea"
+                    component={InputTextarea}
+                  />
+                  <Route
+                    exact
+                    path="/forms/select-radio-button-checkbox"
+                    component={SelectRadioButtonCheckbox}
+                  />
+                  <Route
+                    exact
+                    path="/forms/form-submit-async"
+                    component={FormSubmit}
+                  />
+                  <Route exact path="/">
+                    <Heading as="h1">Demos</Heading>
+                  </Route>
+                </Switch>
+              </main>
+            </div>
             <Footer />
           </div>
         </div>
