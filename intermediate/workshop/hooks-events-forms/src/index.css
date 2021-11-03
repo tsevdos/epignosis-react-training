@@ -1,0 +1,42 @@
+body {
+  background: #f0f2f5;
+}
+
+.container {
+  position: relative;
+  display: flex;
+}
+
+.main-nav ul,
+.main-nav li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+}
+
+header {
+  margin: 0 0 1rem;
+  padding: 0 0 1rem;
+  border-bottom: 2px solid #ececec;
+}
+
+footer {
+  margin: 1rem 0 0;
+  padding: 1rem 0 0;
+  border-top: 2px solid #ececec;
+}
+
+h2 {
+  margin: 0 0 2rem !important;
+}
+
+.m-b {
+  margin-bottom: 1rem;
+}
